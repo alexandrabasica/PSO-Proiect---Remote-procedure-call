@@ -11,7 +11,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-Server::Server(uint16_t port)
+Server::Server(uint16_t port) noexcept
     : m_port(port), m_listen_fd(-1), m_client_fd(-1), m_running(false)
 {
     m_handler = [](int client_fd, const sockaddr_in&) {
