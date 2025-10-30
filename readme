@@ -1,0 +1,90 @@
+Proiect PSO — Remote Procedure Call (RPC)
+
+
+Scopul aplicației
+
+Scopul proiectului este dezvoltarea unei biblioteci software care permite apelarea de funcții definite pe un proces/server separat, 
+prin intermediul socket-urilor TCP, oferind suport pentru apeluri în mod sincron și asincron.
+Biblioteca va facilita comunicarea între un client și un server, gestionând transmiterea cererilor de execuție, 
+serializarea datelor, recepționarea rezultatelor și tratarea erorilor, într-un mod standardizat și extensibil.
+
+Obiective generale
+
+->Realizarea unei biblioteci RPC utilizabile în aplicații C pe Linux.
+->Permite invocarea de funcții de la distanță, ca și cum ar fi locale.
+->Asigurarea unei interfețe clare pentru utilizator (API simplu).
+->Oferirea a două moduri de funcționare:
+    *Mod sincron (blocking) — clientul așteaptă răspunsul serverului.
+    *Mod asincron (non-blocking) — clientul poate continua execuția, iar răspunsul este primit ulterior.
+->Gestionarea erorilor, timeout-urilor și retry-urilor într-un mod unitar.
+
+Componentele aplicației
+
+1.Biblioteca RPC
+->Conține funcționalitățile principale pentru trimiterea și primirea apelurilor la distanță.
+->Expune un set de funcții publice (API) pentru utilizatorii care doresc să facă apeluri RPC.
+->Se ocupă de formatarea cererilor, trimiterea lor către server, primirea răspunsurilor și interpretarea rezultatelor.
+
+2.Wrapper Client
+->Este partea care se conectează la server și trimite cereri de execuție.
+->Transmite numele funcției de apelat și parametrii aferenți.
+->Poate funcționa:
+    *în mod sincron, așteptând răspunsul serverului înainte de a continua;
+    *în mod asincron, trimițând cererea și continuând execuția fără blocare.
+->Gestionează:
+    *timpi de așteptare (timeout),
+    *reîncercări în caz de eșec (retry),
+    *preluarea și returnarea rezultatelor sau a erorilor către aplicația utilizator.
+
+3.Server RPC
+->Rulează ca proces separat și ascultă conexiuni pe un port configurabil.
+->Primește cererile de la clienți, decodează mesajele, identifică funcția cerută și o execută.
+->Returnează rezultatul execuției către client într-un format standardizat.
+->Permite definirea și înregistrarea mai multor funcții predefinite, care pot fi apelate de la distanță.
+->Gestionează simultan mai mulți clienți și cereri concurente.
+
+Funcționalități principale
+->Apeluri de funcții de la distanță (RPC)
+    *Clientul poate invoca o funcție de pe server ca și cum ar fi locală.
+    *Parametrii și rezultatele sunt transmise prin mesaje serializate.
+
+->Comunicare prin socket-uri TCP
+    *Canalul principal de comunicare între client și server.
+    *Suport pentru mai multe conexiuni simultane.
+
+->Serializare standardizată
+    *Mesajele sunt codificate într-un format text standard (de exemplu JSON).
+    *Permite transmiterea ușoară a parametrilor și a rezultatelor între procese.
+
+->Mod sincron și asincron
+    *Sincron: clientul așteaptă până la primirea răspunsului.
+    *Asincron: clientul trimite cererea și continuă alte operații, primind răspunsul ulterior.
+
+->Gestionarea erorilor
+    #Tratarea cazurilor de:
+        *funcții inexistente pe server,
+        *parametri invalizi,
+        *lipsa conexiunii,
+        *erori interne la execuție.
+    #Mesaje de eroare standardizate, transmise către client.
+
+->Timeout și Retry
+    *Posibilitatea de a specifica un timp maxim de așteptare pentru răspuns.
+    *Reîncercarea automată a apelului în caz de timeout (număr limitat de încercări).
+
+->Concurență și performanță
+    *Serverul gestionează mai multe cereri simultan.
+    *Poate folosi fire de execuție (thread pool) sau mecanisme de multiplexare (select/poll/epoll).
+
+Funcționalități opționale / extensii posibile
+
+->Autentificare între client și server (cheie partajată).
+->Jurnalizare (logging) detaliată a cererilor și răspunsurilor.
+->Limitare a dimensiunii pachetelor trimise.
+->Mecanism de confirmare și deduplicare a cererilor.
+->Suport pentru tipuri complexe de date (liste, structuri).
+->Interfață grafică simplă pentru testare (UI de apel funcții)
+
+Concluzie
+
+Proiectul urmărește realizarea unei infrastructuri RPC minimale, dar funcționale, care să permită comunicarea între procese independente printr-un protocol simplu și extensibil. Accentul se pune pe înțelegerea principiilor de comunicare client–server, pe tratarea corectă a apelurilor la distanță și pe gestionarea modurilor de execuție sincron și asincron.
