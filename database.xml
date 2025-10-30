@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicationData>
+    <settings>
+        <setting key="port">1234</setting>
+        <setting key="mode">debug</setting>
+        <setting key="maxConnections">10</setting>
+    </settings>
+    <state>
+        <variable name="counter">0</variable>
+        <variable name="lastMessage">None</variable>
+        <variable name="activeSessions">0</variable>
+    </state>
+    <logs>
+        <log timestamp="2025-10-30T10:00:00">Server pornit</log>
+        <log timestamp="2025-10-30T10:05:00">Primire cerere RPC: getStatus</log>
+        <log timestamp="2025-10-30T19:35:46">Server pornit pe port 12345</log>
+        <log timestamp="2025-10-30T19:36:20">Mesaj primit: salut server
+</log>
+        <log timestamp="2025-10-30T19:36:51">Client deconectat</log>
+        <log timestamp="2025-10-30T19:41:31">Server pornit pe port 12345</log>
+        <log timestamp="2025-10-30T19:41:39">Mesaj primit: hei
+</log>
+        <log timestamp="2025-10-30T19:42:00">Mesaj primit: cat database.xml</log>
+        <log timestamp="2025-10-30T19:42:00">Mesaj primit: 
+</log>
+    </logs>
+</applicationData>

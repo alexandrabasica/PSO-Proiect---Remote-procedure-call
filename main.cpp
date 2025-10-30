@@ -4,6 +4,7 @@
 #include <string>
 #include <thread>
 #include <chrono>
+#include "Database.h"
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
@@ -16,7 +17,7 @@ int main(int argc, char* argv[]) {
     std::string mode = argv[1];
 
     try {
-        
+
         if (mode == "server") {
             if (argc != 3) {
                 std::cerr << "Usage: " << argv[0] << " server <port>\n";
@@ -24,7 +25,8 @@ int main(int argc, char* argv[]) {
             }
 
             uint16_t port = static_cast<uint16_t>(std::stoi(argv[2]));
-            Server server(port);
+            Database db("database.xml");
+            Server server(port, &db); 
 
             std::cout << "Starting server on port " << port << "...\n";
             server.open();

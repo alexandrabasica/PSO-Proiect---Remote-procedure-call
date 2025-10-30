@@ -3,6 +3,9 @@
 #pragma once 
 #include <cstdint>
 #include <string>
+#include "tinyxml2.h"
+using namespace tinyxml2;
+#include "Database.h"
 
 struct sockaddr_in; 
 

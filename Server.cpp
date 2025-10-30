@@ -11,12 +11,13 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-Server::Server(uint16_t port) noexcept
-    : m_port(port), m_listen_fd(-1), m_client_fd(-1), m_running(false)
+Server::Server(uint16_t port, Database* database) noexcept
+    : m_port(port), m_listen_fd(-1), m_client_fd(-1), m_running(false), db(database)
 {
-    m_handler = [](int client_fd, const sockaddr_in&) {
+    m_handler = [this](int client_fd, const sockaddr_in&) {
         constexpr size_t BUF_SZ = 1024;
         char buf[BUF_SZ];
+
         for (;;) {
             ssize_t r = recv(client_fd, buf, BUF_SZ, 0);
             if (r > 0) {
@@ -26,7 +27,10 @@ Server::Server(uint16_t port) noexcept
                     if (n < 0) return;
                     sent += n;
                 }
+
+                if (db) db->addLog("Mesaj primit: " + std::string(buf, r));
             } else if (r == 0) {
+                if (db) db->addLog("Client deconectat");
                 return;
             } else {
                 if (errno == EINTR) continue;
@@ -34,7 +38,10 @@ Server::Server(uint16_t port) noexcept
             }
         }
     };
+
+    if(db) db->addLog("Server pornit pe port " + std::to_string(port));
 }
+
 
 Server::~Server() {
     close();

@@ -4,6 +4,9 @@
 #include <cstdint>
 #include <functional>
 #include <atomic>
+#include "tinyxml2.h"
+using namespace tinyxml2;
+#include "Database.h"
 
 struct sockaddr_in;
 
@@ -11,7 +14,7 @@ class Server {
 public:
     using ClientHandler = std::function<void(int, const sockaddr_in&)>;
 
-    explicit Server(uint16_t port = 12345) noexcept;
+    explicit Server(uint16_t port = 12345, Database* database = nullptr) noexcept;
     ~Server();
 
     Server(const Server&) = delete;
@@ -36,6 +39,7 @@ public:
 private:
     void ensureOpen() const;
     void closeClientIfOpen();
+    Database* db; 
 
 private:
     uint16_t m_port;
@@ -43,6 +47,7 @@ private:
     int m_client_fd;
     std::atomic<bool> m_running;
     ClientHandler m_handler;
+    Database* db;
 };
 
 #endif

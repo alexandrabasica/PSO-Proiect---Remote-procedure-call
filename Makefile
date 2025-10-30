@@ -1,9 +1,9 @@
 CC := g++
 CFLAGS := -Wall -g
-SRCS := $(wildcard *.cpp)
-OBJS := $(SRCS:.cpp=.o)
-TARGET := main.exe
 
+SRCS := main.cpp Server.cpp Client.cpp Database.cpp tinyxml2.cpp
+OBJS := $(SRCS:.cpp=.o)
+TARGET := myprogram
 .PHONY: all clean
 
 all: $(TARGET)
