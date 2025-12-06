@@ -1,8 +1,8 @@
 CMakeFiles/pso_server.dir/shared/Database.cpp.o: \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp \
  /usr/include/stdc-predef.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
  /usr/include/c++/13/cctype \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,4 +1,5 @@
 #include "Server.h"
+#include "Tracer.h"
 #include <stdexcept>
 #include <system_error>
 #include <cerrno>
@@ -10,6 +11,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <unistd.h>
+#include <csignal>
+#include <sys/wait.h>
 
 Server::Server(uint16_t port, Database* database) noexcept
     : m_port(port), m_listen_fd(-1), m_client_fd(-1), m_running(false), db(database)
@@ -19,16 +22,35 @@ Server::Server(uint16_t port, Database* database) noexcept
         char buf[BUF_SZ];
 
         for (;;) {
-            ssize_t r = recv(client_fd, buf, BUF_SZ, 0);
+            ssize_t r = recv(client_fd, buf, BUF_SZ - 1, 0);
             if (r > 0) {
-                ssize_t sent = 0;
-                while (sent < r) {
-                    ssize_t n = send(client_fd, buf + sent, static_cast<size_t>(r - sent), 0);
-                    if (n < 0) return;
-                    sent += n;
+                buf[r] = '\0';
+                std::string msg(buf);
+                
+                if (msg.rfind("TRACE ", 0) == 0) {
+                    std::string cmd = msg.substr(6);
+                    if (db) db->addLog("Tracing command: " + cmd);
+                    
+                    auto sendCallback = [client_fd](const TraceEvent& evt) {
+                        std::string line = evt.type + " [" + std::to_string(evt.pid) + "]: " + evt.details + "\n";
+                        send(client_fd, line.c_str(), line.size(), 0);
+                    };
+                    
+                    Tracer tracer(cmd, sendCallback);
+                    tracer.run();
+                    
+                    std::string endMsg = "TRACE_END\n";
+                    send(client_fd, endMsg.c_str(), endMsg.size(), 0);
+                } else {
+                    // Echo back
+                    ssize_t sent = 0;
+                    while (sent < r) {
+                        ssize_t n = send(client_fd, buf + sent, static_cast<size_t>(r - sent), 0);
+                        if (n < 0) return;
+                        sent += n;
+                    }
+                    if (db) db->addLog("Mesaj primit: " + std::string(buf, r));
                 }
-
-                if (db) db->addLog("Mesaj primit: " + std::string(buf, r));
             } else if (r == 0) {
                 if (db) db->addLog("Client deconectat");
                 return;
@@ -82,6 +104,8 @@ void Server::ensureOpen() const {
 
 void Server::open() {
     if (m_listen_fd >= 0) return; // deja deschis
+
+    setupSignalHandler();
 
     m_listen_fd = ::socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (m_listen_fd < 0) {
@@ -171,16 +195,27 @@ void Server::serveForever() {
 while (m_running.load()) {
     sockaddr_in client_addr{};
     socklen_t addrlen = sizeof(client_addr);
-    int client = accept(m_listen_fd, reinterpret_cast<sockaddr*>(&client_addr), &addrlen);
-    if (client < 0) {
-        if (errno == EINTR) continue;
-        throw std::system_error(errno, std::generic_category(), "accept() failed");
+    int client = -1;
+    try {
+        client = accept(m_listen_fd, reinterpret_cast<sockaddr*>(&client_addr), &addrlen);
+        if (client < 0) {
+            if (errno == EINTR) continue;
+            throw std::system_error(errno, std::generic_category(), "accept() failed");
+        }
+    } catch (const std::exception& e) {
+        std::cerr << "Accept error: " << e.what() << "\n";
+        if (db) db->addLog("Accept error: " + std::string(e.what()));
+        continue; // Try again instead of crashing
     }
 
     pid_t pid = fork();
     if (pid == 0) 
     { // proces copil
         ::close(m_listen_fd); // copilul nu are nevoie de socketul de ascultare
+        
+        // Reset SIGCHLD to default so waitpid works correctly in Tracer
+        signal(SIGCHLD, SIG_DFL);
+        
         try {
             m_handler(client, client_addr);
         } catch (...) { }
@@ -198,4 +233,14 @@ while (m_running.load()) {
     }
 }
 
+}
+
+void Server::setupSignalHandler() {
+    struct sigaction sa;
+    sa.sa_handler = [](int) {
+        while (waitpid(-1, nullptr, WNOHANG) > 0);
+    };
+    sigemptyset(&sa.sa_mask);
+    sa.sa_flags = SA_RESTART | SA_NOCLDSTOP;
+    sigaction(SIGCHLD, &sa, nullptr);
 }

@@ -1,0 +1,25 @@
+# Fișiere de construire (Build files)
+######################################
+# Directorul de build unde sunt generate executabilele și Makefile-urile
+build/
+
+# Executabilele generate (le-am văzut în structura ta)
+*.exe
+main.exe
+myprogram
+pso_gui
+pso_server
+
+# Fișiere obiect generate în timpul compilării
+*.o
+*.obj
+
+# Cache-ul și fișierele temporare CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Fișiere de backup sau swap
+*~
+*.swp

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pso_server.dir/server/Server.cpp.o"
   "CMakeFiles/pso_server.dir/server/Server.cpp.o.d"
+  "CMakeFiles/pso_server.dir/server/Tracer.cpp.o"
+  "CMakeFiles/pso_server.dir/server/Tracer.cpp.o.d"
   "CMakeFiles/pso_server.dir/server/main.cpp.o"
   "CMakeFiles/pso_server.dir/server/main.cpp.o.d"
   "CMakeFiles/pso_server.dir/shared/Client.cpp.o"

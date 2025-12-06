@@ -1,12 +1,12 @@
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMainWindow \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qmainwindow.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtguiglobal.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qglobal.h \
  /usr/include/c++/13/type_traits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -34,63 +34,56 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/assert.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qconfig.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtconfigmacros.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qprocessordetection.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompilerdetection.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtcoreglobal.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtversionchecks.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtconfiginclude.h \
  /usr/include/c++/13/version \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h \
- /usr/include/c++/13/variant \
- /usr/include/c++/13/bits/enable_special_members.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qconfig.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtcore-config.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtconfigmacros.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcompilerdetection.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qprocessordetection.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qsystemdetection.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtcoreexports.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qassert.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtnoop.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtypes.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtversion.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtypeinfo.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcontainerfwd.h \
+ /usr/include/c++/13/limits \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qsysinfo.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qlogging.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qflags.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcompare_impl.h \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
+ /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
- /usr/include/c++/13/bits/functional_hash.h \
- /usr/include/c++/13/bits/hash_bytes.h /usr/include/c++/13/bits/invoke.h \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/ext/numeric_traits.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
  /usr/include/c++/13/ext/type_traits.h \
+ /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/stl_iterator_base_types.h \
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/13/bits/concept_check.h \
  /usr/include/c++/13/debug/assertions.h \
- /usr/include/c++/13/bits/stl_iterator_base_types.h \
- /usr/include/c++/13/bits/stl_construct.h /usr/include/c++/13/new \
+ /usr/include/c++/13/bits/stl_iterator.h \
+ /usr/include/c++/13/bits/ptr_traits.h /usr/include/c++/13/debug/debug.h \
+ /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/new \
  /usr/include/c++/13/bits/exception.h \
- /usr/include/c++/13/ext/aligned_buffer.h /usr/include/c++/13/optional \
- /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
- /usr/include/c++/13/bits/cxxabi_init_exception.h \
- /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
- /usr/include/c++/13/tuple /usr/include/c++/13/bits/uses_allocator.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsysinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlogging.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnumeric.h \
- /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/c++/13/bits/stl_construct.h /usr/include/c++/13/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/std_abs.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -115,13 +108,48 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/13/bits/specfun.h \
- /usr/include/c++/13/bits/stl_algobase.h \
- /usr/include/c++/13/bits/functexcept.h \
- /usr/include/c++/13/bits/stl_iterator.h \
- /usr/include/c++/13/bits/ptr_traits.h /usr/include/c++/13/debug/debug.h \
- /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
- /usr/include/c++/13/limits /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/bits/std_abs.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qatomic.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbasicatomic.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qatomic_cxx11.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qgenericatomic.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qyieldcpu.h \
+ /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qconstructormacros.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qdarwinhelpers.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qexceptionhandling.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qforeach.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qttypetraits.h \
+ /usr/include/c++/13/optional /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/hash_bytes.h \
+ /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/bits/functional_hash.h /usr/include/c++/13/tuple \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/invoke.h /usr/include/c++/13/variant \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qfunctionpointer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qglobalstatic.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmalloc.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qminmax.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qnumeric.h \
+ /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
  /usr/include/c++/13/tr1/special_function_util.h \
  /usr/include/c++/13/tr1/bessel_function.tcc \
  /usr/include/c++/13/tr1/beta_function.tcc \
@@ -133,21 +161,24 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q20type_traits.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qoverload.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qswap.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtresource.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qttranslation.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qversiontagging.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtgui-config.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtguiexports.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qwidget.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qnamespace.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcompare.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstdlibdetection.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcomparehelpers.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/bits/refwrap.h \
@@ -171,22 +202,14 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/array \
- /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/cstdlib \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/c++/13/cstring /usr/include/c++/13/iterator \
- /usr/include/c++/13/bits/stream_iterator.h /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/compare \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtmetamacros.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -195,12 +218,8 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/13/bits/streambuf_iterator.h \
- /usr/include/c++/13/streambuf /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
- /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
@@ -217,6 +236,31 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qobject.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstring.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qchar.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringview.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbytearray.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qrefcount.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qarraydata.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qarraydatapointer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qarraydataops.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qxptype_traits.h \
+ /usr/include/c++/13/cstring /usr/include/c++/13/iterator \
+ /usr/include/c++/13/bits/stream_iterator.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/c++/13/streambuf /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
+ /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/ostream_insert.h \
@@ -240,67 +284,66 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/bits/streambuf.tcc \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/algorithm \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringfwd.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q20functional.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q20memory.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbytearrayview.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringfwd.h \
  /usr/include/c++/13/stdlib.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringalgorithms.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qlatin1stringview.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qanystringview.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qutf8stringview.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringtokenizer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q23type_traits.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringbuilder.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringconverter.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringconverter_base.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qlist.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qhashfunctions.h \
  /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiterator.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbytearraylist.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringlist.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qalgorithms.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qstringmatcher.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qscopedpointer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmetatype.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qdatastream.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiodevicebase.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qfloat16.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmath.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtformat_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiterable.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtaggedpointer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmetacontainer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcontainerinfo.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qscopeguard.h \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc /usr/include/c++/13/map \
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qobject_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbindingstorage.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmargins.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcheckedint_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q23utility.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q20utility.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qaction.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qkeysequence.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qicon.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qsize.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpixmap.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpaintdevice.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qrect.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qpoint.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qcolor.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qrgb.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qrgba64.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -309,62 +352,103 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTextEdit \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qshareddata.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qimage.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpixelformat.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtransform.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpolygon.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qregion.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qspan.h \
+ /usr/include/c++/13/cassert \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/q20iterator.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qline.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qvariant.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qdebug.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtextstream.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcontiguouscache.h \
  /usr/include/c++/13/climits \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qsharedpointer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /usr/include/c++/13/unordered_set \
+ /usr/include/c++/13/bits/unordered_set.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qmap.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qshareddata_impl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qset.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qhash.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qvarlengtharray.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qalloc.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpalette.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qbrush.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qfont.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qendian.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qfontmetrics.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qfontinfo.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qfontvariableaxis.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qsizepolicy.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qcursor.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qbitmap.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QLineEdit \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlineedit.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qframe.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtextcursor.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtextdocument.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qurl.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtextformat.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpen.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qtextoption.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QTextEdit \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtextedit.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QPushButton \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qabstractbutton.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QVBoxLayout \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlayout.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlayoutitem.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QHBoxLayout \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QWidget \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qwidget.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMessageBox \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qmessagebox.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qdialog.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QApplication \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qapplication.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcoreevent.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qbasictimer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qeventloop.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qdeadlinetimer.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qnativeinterface.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qinputmethod.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qlocale.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication_platform.h
