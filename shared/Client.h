@@ -1,8 +1,10 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 #pragma once
-#include <cstdint>
 #include <string>
+#include <stdexcept>
+#include <functional>
+#include <netinet/in.h>
 #include "tinyxml2.h"
 using namespace tinyxml2;
 #include "Database.h"
@@ -22,6 +24,9 @@ public:
     void connectTo();
     size_t sendAll(const void *data, size_t len);
     std::string callWithTimeout(const std::string &msg, unsigned int seconds = 5);
+    // New method for tracing
+    // callback is called for each line of trace output
+    void trace(const std::string& command, std::function<void(const std::string&)> callback);
     size_t sendString(const std::string &s) { return sendAll(s.data(), s.size()); }
     ssize_t recvSome(void *buffer, size_t max_len);
     void close();

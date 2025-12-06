@@ -37,6 +37,7 @@ public:
     uint16_t port() const noexcept { return m_port; }
 
 private:
+    void setupSignalHandler();
     void ensureOpen() const;
     void closeClientIfOpen();
     //Database* db; 

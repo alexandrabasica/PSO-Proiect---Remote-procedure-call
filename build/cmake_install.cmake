@@ -1,4 +1,4 @@
-# Install script for directory: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
+# Install script for directory: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

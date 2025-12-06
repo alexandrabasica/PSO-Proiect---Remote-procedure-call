@@ -150,6 +150,41 @@ std::string Client::callWithTimeout(const std::string &msg, unsigned int seconds
     return std::string(buf, n);
 }
 
+void Client::trace(const std::string& command, std::function<void(const std::string&)> callback) {
+    ensureConnected();
+    
+    std::string msg = "TRACE " + command;
+    ssize_t sent = send(m_sockfd, msg.c_str(), msg.size(), 0);
+    if (sent < 0) {
+        throw std::system_error(errno, std::generic_category(), "send() failed");
+    }
+    
+    char buf[4096];
+    for (;;) {
+        ssize_t r = recv(m_sockfd, buf, sizeof(buf) - 1, 0);
+        if (r > 0) {
+            buf[r] = '\0';
+            std::string chunk(buf);
+            
+            // Check for end marker
+            size_t endPos = chunk.find("TRACE_END\n");
+            if (endPos != std::string::npos) {
+                if (endPos > 0) {
+                    callback(chunk.substr(0, endPos));
+                }
+                break;
+            }
+            
+            callback(chunk);
+        } else if (r == 0) {
+            throw std::runtime_error("Server disconnected during trace");
+        } else {
+            if (errno == EINTR) continue;
+            throw std::system_error(errno, std::generic_category(), "recv() failed");
+        }
+    }
+}
+
 ssize_t Client::recvSome(void *buffer, size_t max_len)
 {
     ensureConnected();

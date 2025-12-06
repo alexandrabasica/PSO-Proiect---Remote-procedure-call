@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
+CMAKE_SOURCE_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build
+CMAKE_BINARY_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -264,6 +264,30 @@ server/Server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/server/Server.cpp.s
 .PHONY : server/Server.cpp.s
 
+server/Tracer.o: server/Tracer.cpp.o
+.PHONY : server/Tracer.o
+
+# target to build an object file
+server/Tracer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/server/Tracer.cpp.o
+.PHONY : server/Tracer.cpp.o
+
+server/Tracer.i: server/Tracer.cpp.i
+.PHONY : server/Tracer.i
+
+# target to preprocess a source file
+server/Tracer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/server/Tracer.cpp.i
+.PHONY : server/Tracer.cpp.i
+
+server/Tracer.s: server/Tracer.cpp.s
+.PHONY : server/Tracer.s
+
+# target to generate assembly for a file
+server/Tracer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/server/Tracer.cpp.s
+.PHONY : server/Tracer.cpp.s
+
 server/main.o: server/main.cpp.o
 .PHONY : server/main.o
 
@@ -393,6 +417,9 @@ help:
 	@echo "... server/Server.o"
 	@echo "... server/Server.i"
 	@echo "... server/Server.s"
+	@echo "... server/Tracer.o"
+	@echo "... server/Tracer.i"
+	@echo "... server/Tracer.s"
 	@echo "... server/main.o"
 	@echo "... server/main.i"
 	@echo "... server/main.s"
