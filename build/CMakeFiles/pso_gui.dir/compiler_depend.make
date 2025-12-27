@@ -485,6 +485,7 @@ pso_gui_autogen/timestamp: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralC
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -513,6 +514,7 @@ pso_gui_autogen/timestamp: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralC
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/unordered_set.h \
@@ -553,6 +555,7 @@ pso_gui_autogen/timestamp: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralC
   /usr/include/c++/13/list \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
@@ -1003,6 +1006,7 @@ CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: /home/geanina-filotea/Desktop/ANUL3/r
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -1031,6 +1035,7 @@ CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: /home/geanina-filotea/Desktop/ANUL3/r
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/unordered_set.h \
@@ -1071,6 +1076,7 @@ CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: /home/geanina-filotea/Desktop/ANUL3/r
   /usr/include/c++/13/list \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
@@ -1511,6 +1517,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -1539,6 +1546,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/unordered_set.h \
@@ -1579,6 +1587,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /usr/include/c++/13/list \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
@@ -1998,6 +2007,7 @@ CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: pso_gui_autogen/m
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -2026,6 +2036,7 @@ CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: pso_gui_autogen/m
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/unordered_set.h \
@@ -2066,6 +2077,7 @@ CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: pso_gui_autogen/m
   /usr/include/c++/13/list \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
@@ -2259,6 +2271,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/bits/basic_string.tcc \
   /usr/include/c++/13/bits/char_traits.h \
   /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
@@ -2289,6 +2302,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/bits/node_handle.h \
   /usr/include/c++/13/bits/ostream.tcc \
   /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
@@ -2297,6 +2311,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -2315,6 +2330,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
@@ -2326,9 +2342,11 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
@@ -2346,9 +2364,12 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -2567,6 +2588,7 @@ CMakeFiles/pso_gui.dir/shared/Database.cpp.o: /home/geanina-filotea/Desktop/ANUL
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_mutex.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
@@ -2578,6 +2600,7 @@ CMakeFiles/pso_gui.dir/shared/Database.cpp.o: /home/geanina-filotea/Desktop/ANUL
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -2608,6 +2631,7 @@ CMakeFiles/pso_gui.dir/shared/Database.cpp.o: /home/geanina-filotea/Desktop/ANUL
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
@@ -3170,6 +3194,8 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 
 /usr/include/c++/13/numeric:
 
+/usr/include/c++/13/mutex:
+
 /usr/include/c++/13/memory:
 
 /usr/include/c++/13/map:
@@ -3183,6 +3209,8 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/ext/type_traits.h:
+
+/usr/include/c++/13/ext/atomicity.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
 
@@ -3253,6 +3281,12 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMessageBox:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
 
 /usr/include/c++/13/pstl/execution_defs.h:
 
@@ -3595,10 +3629,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtextstream.h:
-
-/home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
-
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h:
 
 /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake:
 
@@ -4402,6 +4432,12 @@ pso_gui_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/shared_ptr_base.h:
 
+/home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
+
+/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h:
+
+/usr/include/c++/13/bits/std_mutex.h:
+
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qspan.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
@@ -4444,6 +4480,8 @@ pso_gui_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
+/usr/include/c++/13/bits/unique_lock.h:
+
 /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:
 
 /usr/include/c++/13/bits/uses_allocator.h:
@@ -4483,11 +4521,3 @@ pso_gui_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/c++/13/ext/atomicity.h:
-
-/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMessageBox:
-
-/home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
-/usr/include/c++/13/ext/concurrence.h:

@@ -66,9 +66,9 @@ include CMakeFiles/pso_gui_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/pso_gui_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/uic
-CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/moc
 CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/libQt6Widgets.so.6.10.1
+CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/moc
+CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/uic
 
 pso_gui_autogen_timestamp_deps: CMakeFiles/pso_gui_autogen_timestamp_deps
 pso_gui_autogen_timestamp_deps: CMakeFiles/pso_gui_autogen_timestamp_deps.dir/build.make

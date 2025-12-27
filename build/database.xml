@@ -38,5 +38,40 @@
         <log timestamp="2025-12-04T13:07:30">Server pornit pe port 12345</log>
         <log timestamp="2025-12-04T13:07:46">Tracing command: ls</log>
         <log timestamp="2025-12-04T13:07:49">Client deconectat</log>
+        <log timestamp="2025-12-06T12:41:35">Server pornit pe port 1234</log>
+        <log timestamp="2025-12-06T12:48:08">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-06T12:48:26">Tracing command: ls -l</log>
+        <log timestamp="2025-12-06T12:48:32">Client deconectat</log>
+        <log timestamp="2025-12-18T12:38:14">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-18T12:38:49">Tracing command: ls -l </log>
+        <log timestamp="2025-12-18T12:39:33">Tracing command: a+b </log>
+        <log timestamp="2025-12-18T12:40:28">Tracing command: sum(a, b)</log>
+        <log timestamp="2025-12-18T12:41:45">Client deconectat</log>
+        <log timestamp="2025-12-27T17:36:51">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T17:37:16">Client deconectat</log>
+        <log timestamp="2025-12-27T17:37:43">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T20:51:26">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T20:51:34">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T20:51:35">Tracing code snippet</log>
+        <log timestamp="2025-12-27T20:51:36">Client deconectat</log>
+        <log timestamp="2025-12-27T20:53:51">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T20:53:55">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:01:56">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:03:22">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:03:58">Mesaj primit: int a =3; printf("val %d", a);</log>
+        <log timestamp="2025-12-27T21:04:14">Mesaj primit: int a =3;</log>
+        <log timestamp="2025-12-27T21:04:24">Client deconectat</log>
+        <log timestamp="2025-12-27T21:05:37">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:05:43">Tracing code snippet</log>
+        <log timestamp="2025-12-27T21:05:44">Client deconectat</log>
+        <log timestamp="2025-12-27T21:06:38">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:06:47">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T21:06:58">Tracing code snippet</log>
+        <log timestamp="2025-12-27T21:07:24">Client deconectat</log>
+        <log timestamp="2025-12-27T21:09:56">Tracing code snippet</log>
+        <log timestamp="2025-12-27T21:12:06">Tracing code snippet</log>
+        <log timestamp="2025-12-27T21:12:07">Tracing code snippet</log>
+        <log timestamp="2025-12-27T21:12:57">Client deconectat</log>
+        <log timestamp="2025-12-27T21:12:58">Client deconectat</log>
     </logs>
 </applicationData>
