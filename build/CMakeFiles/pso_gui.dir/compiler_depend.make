@@ -1308,6 +1308,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qglobalstatic.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qhash.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiodevice.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiodevicebase.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiterable.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiterator.h \
@@ -1406,6 +1407,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpaintdevice.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpalette.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpen.h \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpicture.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpixelformat.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpixmap.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpolygon.h \
@@ -1423,10 +1425,12 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qwindowdefs.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QApplication \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QHBoxLayout \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QLabel \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QLineEdit \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMainWindow \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QMessageBox \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QPushButton \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QSplitter \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QTextEdit \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QVBoxLayout \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QWidget \
@@ -1438,6 +1442,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qframe.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlabel.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlayout.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlineedit.h \
@@ -1445,6 +1450,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qmessagebox.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qsizepolicy.h \
+  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qsplitter.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtabwidget.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtextedit.h \
   /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
@@ -2904,6 +2910,8 @@ CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o: /home/geanina-filotea/Desktop/ANUL
 
 pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qsplitter.h:
+
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qmessagebox.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlayoutitem.h:
@@ -2913,6 +2921,10 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qdialog.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QWidget:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QSplitter:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QLabel:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -2931,6 +2943,8 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/13/stdlib.h:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpicture.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication.h:
 
@@ -3533,6 +3547,8 @@ pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qtversion.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiodevice.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qcontiguouscache.h:
 
@@ -4347,6 +4363,8 @@ pso_gui_autogen/mocs_compilation.cpp:
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
 
 /usr/include/c++/13/bits/concept_check.h:
+
+/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlabel.h:
 
 /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
 

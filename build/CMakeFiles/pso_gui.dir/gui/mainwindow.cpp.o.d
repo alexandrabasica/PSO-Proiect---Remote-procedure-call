@@ -453,4 +453,10 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication.h \
  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qinputmethod.h \
  /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qlocale.h \
- /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication_platform.h
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QSplitter \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qsplitter.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/QLabel \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets/qlabel.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui/qpicture.h \
+ /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore/qiodevice.h
