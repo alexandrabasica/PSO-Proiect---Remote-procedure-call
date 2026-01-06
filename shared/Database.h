@@ -2,6 +2,7 @@
 #define DATABASE_H
 #include "tinyxml2.h"
 #include <string>
+#include <mutex>
 
 class Database {
 public:
@@ -15,5 +16,6 @@ public:
 private:
     tinyxml2::XMLDocument doc;
     std::string filename;
+    std::recursive_mutex m_mutex;
 };
 #endif

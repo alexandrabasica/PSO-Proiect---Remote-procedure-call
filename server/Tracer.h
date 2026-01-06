@@ -7,7 +7,7 @@
 #include <sys/types.h>
 
 struct TraceEvent {
-    std::string type; // SYSCALL, FORK, SIGNAL, etc.
+    std::string type;
     pid_t pid;
     std::string details;
 };
@@ -28,4 +28,4 @@ private:
     std::string getSyscallName(long syscall_nr);
 };
 
-#endif // TRACER_H
+#endif

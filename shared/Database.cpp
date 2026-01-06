@@ -8,6 +8,7 @@ Database::Database(const std::string& filename) : filename(filename) {
 }
 
 void Database::load() {
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     if (doc.LoadFile(filename.c_str()) != tinyxml2::XML_SUCCESS) {
         std::cout << "database.xml not found, creating new one.\n";
         auto* root = doc.NewElement("applicationData");
@@ -27,11 +28,13 @@ void Database::load() {
 }
 
 void Database::save() {
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     doc.SaveFile(filename.c_str());
 }
 
 void Database::addLog(const std::string& message) 
 {
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     auto* root = doc.RootElement();
     auto* logs = root->FirstChildElement("logs");
     if (!logs) {
@@ -41,7 +44,6 @@ void Database::addLog(const std::string& message)
 
     auto* log = doc.NewElement("log");
     
-    // adaugam timestamp
     auto t = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
     char buf[64];
     std::strftime(buf, sizeof(buf), "%Y-%m-%dT%H:%M:%S", std::localtime(&t));
@@ -53,6 +55,7 @@ void Database::addLog(const std::string& message)
 }
 
 void Database::setStateVariable(const std::string& name, const std::string& value) {
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     auto* root = doc.RootElement();
     auto* state = root->FirstChildElement("state");
     if (!state) {
@@ -70,7 +73,6 @@ void Database::setStateVariable(const std::string& name, const std::string& valu
         var = var->NextSiblingElement("variable");
     }
 
-    // daca nu exista, adaugam unul nou
     auto* newVar = doc.NewElement("variable");
     newVar->SetAttribute("name", name.c_str());
     newVar->SetText(value.c_str());
@@ -79,6 +81,7 @@ void Database::setStateVariable(const std::string& name, const std::string& valu
 }
 
 std::string Database::getStateVariable(const std::string& name) {
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     auto* root = doc.RootElement();
     auto* state = root->FirstChildElement("state");
     if (!state) return "";

@@ -131,26 +131,27 @@ std::string Client::callWithTimeout(const std::string &msg, unsigned int seconds
     if (!isConnected())
         connectTo();
 
-    // handler SIGALRM
     struct sigaction sa{};
     sa.sa_handler = timeout_handler;
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
     sigaction(SIGALRM, &sa, nullptr);
 
-    alarm(seconds); // timeout
+    alarm(seconds);
 
     sendString(msg);
 
     char buf[1024]{};
     ssize_t n = recvSome(buf, sizeof(buf));
 
-    alarm(0); // anuleaza alarm
+    alarm(0);
 
     return std::string(buf, n);
 }
 
-void Client::trace(const std::string& command, std::function<void(const std::string&)> callback) {
+void Client::trace(const std::string& command, 
+                   std::function<void(const std::string&)> traceCallback,
+                   std::function<void(const std::string&)> outCallback) {
     ensureConnected();
     
     std::string msg = "TRACE " + command;
@@ -166,16 +167,39 @@ void Client::trace(const std::string& command, std::function<void(const std::str
             buf[r] = '\0';
             std::string chunk(buf);
             
-            // Check for end marker
             size_t endPos = chunk.find("TRACE_END\n");
             if (endPos != std::string::npos) {
-                if (endPos > 0) {
-                    callback(chunk.substr(0, endPos));
+                chunk = chunk.substr(0, endPos);
+                
+                if (!chunk.empty()) {
+                    
+                    size_t start = 0;
+                    size_t pos = 0;
+                    while ((pos = chunk.find('\n', start)) != std::string::npos) {
+                        std::string line = chunk.substr(start, pos - start);
+                        if (line.rfind("TRACE:", 0) == 0) {
+                            traceCallback(line.substr(6));
+                        } else if (line.rfind("OUT:", 0) == 0) {
+                            outCallback(line.substr(4));
+                        }
+                        start = pos + 1;
+                    }
                 }
                 break;
             }
             
-            callback(chunk);
+            
+            size_t start = 0;
+            size_t pos = 0;
+            while ((pos = chunk.find('\n', start)) != std::string::npos) {
+                std::string line = chunk.substr(start, pos - start);
+                if (line.rfind("TRACE:", 0) == 0) {
+                    traceCallback(line.substr(6));
+                } else if (line.rfind("OUT:", 0) == 0) {
+                    outCallback(line.substr(4));
+                }
+                start = pos + 1;
+            }
         } else if (r == 0) {
             throw std::runtime_error("Server disconnected during trace");
         } else {

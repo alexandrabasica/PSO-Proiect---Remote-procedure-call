@@ -16,7 +16,8 @@ private slots:
 
 private:
     QLineEdit *inputLine;
-    QTextEdit *chatArea;
+    QTextEdit *outputArea;
+    QTextEdit *traceArea;
     QPushButton *sendButton;
 
     Client client;

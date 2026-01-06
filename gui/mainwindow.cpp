@@ -4,36 +4,63 @@
 #include <QWidget>
 #include <QMessageBox>
 #include <QApplication>
+#include <QSplitter>
+#include <QLabel>
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), client("127.0.0.1", 12345) // adresează serverul local
+    : QMainWindow(parent), client("127.0.0.1", 12345)
 {
     auto *central = new QWidget(this);
-    auto *layout = new QVBoxLayout(central);
+    auto *mainLayout = new QVBoxLayout(central);
 
-    chatArea = new QTextEdit(this);
-    chatArea->setReadOnly(true);
-    layout->addWidget(chatArea);
 
-    auto *hLayout = new QHBoxLayout();
+    auto *splitter = new QSplitter(Qt::Horizontal, this);
+
+
+    auto *leftWidget = new QWidget(this);
+    auto *leftLayout = new QVBoxLayout(leftWidget);
+    leftLayout->addWidget(new QLabel("<b>Code & Output</b>"));
+    outputArea = new QTextEdit(this);
+    outputArea->setReadOnly(true);
+    leftLayout->addWidget(outputArea);
+    
+    
+    auto *rightWidget = new QWidget(this);
+    auto *rightLayout = new QVBoxLayout(rightWidget);
+    rightLayout->addWidget(new QLabel("<b>Syscall Trace</b>"));
+    traceArea = new QTextEdit(this);
+    traceArea->setReadOnly(true);
+    rightLayout->addWidget(traceArea);
+
+    splitter->addWidget(leftWidget);
+    splitter->addWidget(rightWidget);
+    splitter->setStretchFactor(0, 1);
+    splitter->setStretchFactor(1, 1);
+
+    mainLayout->addWidget(splitter);
+
+
+    auto *inputLayout = new QHBoxLayout();
     inputLine = new QLineEdit(this);
-    sendButton = new QPushButton("Trimite", this);
-    hLayout->addWidget(inputLine);
-    hLayout->addWidget(sendButton);
+    inputLine->setPlaceholderText("Enter C++ code (e.g., int a=5; printf(\"%d\", a);)");
+    sendButton = new QPushButton("Run", this);
+    inputLayout->addWidget(inputLine);
+    inputLayout->addWidget(sendButton);
 
-    layout->addLayout(hLayout);
+    mainLayout->addLayout(inputLayout);
 
     setCentralWidget(central);
-    setWindowTitle("RPC GUI");
+    setWindowTitle("RPC C++ REPL");
+    resize(1000, 600);
 
     connect(sendButton, &QPushButton::clicked, this, &MainWindow::onSendClicked);
+    connect(inputLine, &QLineEdit::returnPressed, this, &MainWindow::onSendClicked);
 
-    // încearcă să conectezi clientul
     try {
         client.connectTo();
-        chatArea->append("Conectat la server!");
+        outputArea->append("<i>Connected to server! Ready for C++ commands.</i>");
     } catch (const std::exception &e) {
-        QMessageBox::critical(this, "Eroare conexiune", e.what());
+        QMessageBox::critical(this, "Connection Error", e.what());
     }
 }
 
@@ -41,28 +68,25 @@ void MainWindow::onSendClicked() {
     QString message = inputLine->text();
     if (message.isEmpty()) return;
 
-    if (message.startsWith("trace ")) {
-        chatArea->append("<b>Starting trace for: " + message.mid(6) + "</b>");
-        try {
-            client.trace(message.mid(6).toStdString(), [this](const std::string& line) {
-                // Use QMetaObject::invokeMethod to update UI from potentially different thread if needed,
-                // but here we are in the main thread loop of Qt usually, unless client blocks.
-                // Since client.trace blocks, we are in the UI thread, so we can update directly.
-                // However, blocking the UI thread is bad practice. For now, we accept it as per requirements "basics qt things".
-                chatArea->append(QString::fromStdString(line).trimmed());
-                QApplication::processEvents(); // Keep UI responsive
-            });
-            chatArea->append("<b>Trace finished.</b>");
-        } catch (const std::exception &e) {
-            chatArea->append("Eroare: " + QString::fromStdString(e.what()));
-        }
-    } else {
-        try {
-            std::string reply = client.callWithTimeout(message.toStdString(), 5);
-            chatArea->append("Server: " + QString::fromStdString(reply));
-        } catch (const std::exception &e) {
-            chatArea->append("Eroare: " + QString::fromStdString(e.what()));
-        }
+
+    outputArea->append("<b>> " + message + "</b>");
+    traceArea->clear(); 
+    traceArea->append("<b>--- New Execution ---</b>");
+
+    try {
+
+        client.trace(message.toStdString(), 
+            [this](const std::string& line) {
+                traceArea->append(QString::fromStdString(line).trimmed());
+                QApplication::processEvents();
+            },
+            [this](const std::string& line) {
+                outputArea->append(QString::fromStdString(line).trimmed());
+                QApplication::processEvents();
+            }
+        );
+    } catch (const std::exception &e) {
+        outputArea->append("<font color='red'>Error: " + QString::fromStdString(e.what()) + "</font>");
     }
 
     inputLine->clear();

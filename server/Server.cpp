@@ -5,6 +5,7 @@
 #include <cerrno>
 #include <cstring>
 #include <iostream>
+#include <thread>
 
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -13,6 +14,10 @@
 #include <unistd.h>
 #include <csignal>
 #include <sys/wait.h>
+#include <fstream>
+#include <chrono>
+#include <cstdio>
+#include <cstdlib>
 
 Server::Server(uint16_t port, Database* database) noexcept
     : m_port(port), m_listen_fd(-1), m_client_fd(-1), m_running(false), db(database)
@@ -20,6 +25,7 @@ Server::Server(uint16_t port, Database* database) noexcept
     m_handler = [this](int client_fd, const sockaddr_in&) {
         constexpr size_t BUF_SZ = 1024;
         char buf[BUF_SZ];
+        std::string code_history = "";
 
         for (;;) {
             ssize_t r = recv(client_fd, buf, BUF_SZ - 1, 0);
@@ -28,21 +34,81 @@ Server::Server(uint16_t port, Database* database) noexcept
                 std::string msg(buf);
                 
                 if (msg.rfind("TRACE ", 0) == 0) {
-                    std::string cmd = msg.substr(6);
-                    if (db) db->addLog("Tracing command: " + cmd);
+                    std::string new_code = msg.substr(6);
+                    if (db) db->addLog("Tracing code snippet");
                     
-                    auto sendCallback = [client_fd](const TraceEvent& evt) {
-                        std::string line = evt.type + " [" + std::to_string(evt.pid) + "]: " + evt.details + "\n";
-                        send(client_fd, line.c_str(), line.size(), 0);
-                    };
-                    
-                    Tracer tracer(cmd, sendCallback);
-                    tracer.run();
+                    auto now = std::chrono::system_clock::now();
+                    auto timestamp = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()).count();
+                    std::string baseName = "trace_tmp_" + std::to_string(timestamp) + "_" + std::to_string(client_fd);
+                    std::string sourceFile = baseName + ".cpp";
+                    std::string exeFile = "./" + baseName;
+
+                    std::string full_code = code_history + "\n" + new_code;
+
+                    std::ofstream out(sourceFile);
+                    out << "#include <iostream>\n"
+                        << "#include <cstdio>\n"
+                        << "#include <cstdlib>\n"
+                        << "#include <unistd.h>\n"
+                        << "#include <string>\n"
+                        << "#include <vector>\n"
+                        << "int main() {\n"
+                        << full_code << "\n"
+                        << "return 0;\n"
+                        << "}\n";
+                    out.close();
+
+                    std::string compileCmd = "g++ " + sourceFile + " -o " + baseName + " 2>&1";
+                    FILE* pipe = popen(compileCmd.c_str(), "r");
+                    if (!pipe) {
+                        std::string err = "OUT:Failed to run compiler\n";
+                        send(client_fd, err.c_str(), err.size(), 0);
+                    } else {
+                        char buffer[128];
+                        std::string result = "";
+                        while (!feof(pipe)) {
+                            if (fgets(buffer, 128, pipe) != NULL)
+                                result += buffer;
+                        }
+                        int rc = pclose(pipe);
+
+                        if (rc == 0) {
+                            code_history = full_code;
+
+                            auto sendCallback = [client_fd](const TraceEvent& evt) {
+                                std::string line = "TRACE:" + evt.type + " [" + std::to_string(evt.pid) + "]: " + evt.details + "\n";
+                                send(client_fd, line.c_str(), line.size(), 0);
+                            };
+                            
+                            
+                            std::string outputFile = baseName + ".out";
+                            std::string runCmd = exeFile + " > " + outputFile + " 2>&1";
+                            
+                            Tracer tracer(runCmd, sendCallback);
+                            tracer.run();
+
+                            // Read output
+                            std::ifstream outFile(outputFile);
+                            std::string outLine;
+                            while (std::getline(outFile, outLine)) {
+                                std::string msg = "OUT:" + outLine + "\n";
+                                send(client_fd, msg.c_str(), msg.size(), 0);
+                            }
+                            outFile.close();
+                            remove(outputFile.c_str());
+
+                        } else {
+                            std::string errMsg = "OUT:Compilation failed:\n" + result;
+                            send(client_fd, errMsg.c_str(), errMsg.size(), 0);
+                        }
+                    }
+
+                    remove(sourceFile.c_str());
+                    remove(baseName.c_str());
                     
                     std::string endMsg = "TRACE_END\n";
                     send(client_fd, endMsg.c_str(), endMsg.size(), 0);
                 } else {
-                    // Echo back
                     ssize_t sent = 0;
                     while (sent < r) {
                         ssize_t n = send(client_fd, buf + sent, static_cast<size_t>(r - sent), 0);
@@ -103,9 +169,9 @@ void Server::ensureOpen() const {
 }
 
 void Server::open() {
-    if (m_listen_fd >= 0) return; // deja deschis
+    if (m_listen_fd >= 0) return;
 
-    setupSignalHandler();
+
 
     m_listen_fd = ::socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (m_listen_fd < 0) {
@@ -205,33 +271,17 @@ while (m_running.load()) {
     } catch (const std::exception& e) {
         std::cerr << "Accept error: " << e.what() << "\n";
         if (db) db->addLog("Accept error: " + std::string(e.what()));
-        continue; // Try again instead of crashing
+        continue;
     }
 
-    pid_t pid = fork();
-    if (pid == 0) 
-    { // proces copil
-        ::close(m_listen_fd); // copilul nu are nevoie de socketul de ascultare
-        
-        // Reset SIGCHLD to default so waitpid works correctly in Tracer
-        signal(SIGCHLD, SIG_DFL);
-        
-        try {
-            m_handler(client, client_addr);
-        } catch (...) { }
-        ::shutdown(client, SHUT_RDWR);
-        ::close(client);
-        _exit(0); // copilul moare dupa terminarea clientului
-    } else if (pid > 0) 
-    { // parinte
-        ::close(client); // parinte inchide socketul clientului, copilul se ocupa
-    } else {
-        // fork esuat
-        ::shutdown(client, SHUT_RDWR);
-        ::close(client);
-        if(db) db->addLog("Fork failed for new client");
+        std::thread([this, client, client_addr]() {
+            try {
+                m_handler(client, client_addr);
+            } catch (...) { }
+            ::shutdown(client, SHUT_RDWR);
+            ::close(client);
+        }).detach();
     }
-}
 
 }
 

@@ -1,0 +1,30 @@
+Main started. Argc: 2
+Port parsed: 12345
+Database initialized.
+Server initialized.
+Starting server on port 12345...
+Opening server on port 12345...
+Socket created: 3
+Bind success.
+Server listening on port 12345
+Server ready. Waiting for clients...
+total 1316
+drwxrwxr-x 8 geanina-filotea geanina-filotea   4096 Dec 27 17:30 .
+drwxrwxr-x 6 geanina-filotea geanina-filotea   4096 Dec 10 15:12 ..
+drwxrwxr-x 5 geanina-filotea geanina-filotea   4096 Dec 27 17:34 build
+-rw-rw-r-- 1 geanina-filotea geanina-filotea   1147 Dec 18 12:42 CMakeLists.txt
+-rw-rw-r-- 1 geanina-filotea geanina-filotea   1220 Dec 27 17:35 database.xml
+drwxrwxr-x 8 geanina-filotea geanina-filotea   4096 Dec 27 17:24 .git
+-rw-rw-r-- 1 geanina-filotea geanina-filotea    460 Dec  3 19:32 .gitignore
+drwxrwxr-x 2 geanina-filotea geanina-filotea   4096 Dec  3 19:15 gui
+-rwxrwxr-x 1 geanina-filotea geanina-filotea 455240 Oct 30 21:14 main.exe
+-rw-rw-r-- 1 geanina-filotea geanina-filotea 155376 Oct 30 21:14 main.o
+-rw-rw-r-- 1 geanina-filotea geanina-filotea    330 Oct 30 21:12 MakefileClient
+-rw-rw-r-- 1 geanina-filotea geanina-filotea    330 Oct 30 21:12 MakefileServer
+-rwxrwxr-x 1 geanina-filotea geanina-filotea 518744 Dec  3 19:15 myprogram
+drwxrwxr-x 2 geanina-filotea geanina-filotea   4096 Dec  4 12:17 server
+-rw-rw-r-- 1 geanina-filotea geanina-filotea    248 Dec 27 17:35 server.log
+drwxrwxr-x 2 geanina-filotea geanina-filotea   4096 Dec  3 19:15 shared
+-rwxrwxr-x 1 geanina-filotea geanina-filotea 151456 Dec 27 17:29 test_client
+-rw-rw-r-- 1 geanina-filotea geanina-filotea    539 Dec  4 12:19 test_client.cpp
+drwxrwxr-x 2 geanina-filotea geanina-filotea   4096 Dec  3 19:15 .vscode
