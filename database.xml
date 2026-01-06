@@ -14,5 +14,10 @@
         <log timestamp="2025-12-04T13:02:54">Client deconectat</log>
         <log timestamp="2025-12-04T13:05:52">Server pornit pe port 12345</log>
         <log timestamp="2025-12-04T13:06:30">Client deconectat</log>
+        <log timestamp="2025-12-27T17:34:51">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T17:35:10">Server pornit pe port 12345</log>
+        <log timestamp="2025-12-27T17:35:12">Tracing command: ls -la</log>
+        <log timestamp="2025-12-27T17:35:12">Client deconectat</log>
+        <log timestamp="2026-01-02T14:18:41">Server pornit pe port 12345</log>
     </logs>
 </applicationData>

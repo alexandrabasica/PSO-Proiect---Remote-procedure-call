@@ -15,30 +15,26 @@ Tracer::Tracer(const std::string& command, EventHandler handler)
 void Tracer::run() {
     pid_t pid = fork();
     if (pid == 0) {
-        // Child process
         ptrace(PTRACE_TRACEME, 0, nullptr, nullptr);
         execl("/bin/sh", "sh", "-c", m_command.c_str(), nullptr);
         _exit(1);
     } else if (pid > 0) {
-        // Parent process
         int status;
-        waitpid(pid, &status, 0); // Wait for exec/stop
+        waitpid(pid, &status, 0);
 
-        // Set options to trace forks, vforks, clones, and execs
         ptrace(PTRACE_SETOPTIONS, pid, 0, 
                PTRACE_O_TRACEFORK | PTRACE_O_TRACEVFORK | PTRACE_O_TRACECLONE | 
                PTRACE_O_TRACEEXEC | PTRACE_O_TRACESYSGOOD);
 
-        // Start the main child
         ptrace(PTRACE_SYSCALL, pid, 0, 0);
 
         while (true) {
             pid_t wpid = waitpid(-1, &status, 0);
-            if (wpid == -1) break; // No more children
+            if (wpid == -1) break;
 
             if (WIFEXITED(status)) {
                 m_handler({"EXIT", wpid, "Exited with status " + std::to_string(WEXITSTATUS(status))});
-                if (wpid == pid) break; // Main process exited
+                if (wpid == pid) break;
             } else if (WIFSIGNALED(status)) {
                 m_handler({"SIGNAL", wpid, "Killed by signal " + std::to_string(WTERMSIG(status))});
                 if (wpid == pid) break;
@@ -48,7 +44,6 @@ void Tracer::run() {
                 unsigned int event = status >> 16;
                 
                 if (event != 0) {
-                    // PTRACE event
                     if (event == PTRACE_EVENT_FORK || 
                         event == PTRACE_EVENT_VFORK || 
                         event == PTRACE_EVENT_CLONE) {
@@ -56,19 +51,11 @@ void Tracer::run() {
                     } else if (event == PTRACE_EVENT_EXEC) {
                         m_handler({"EXEC", wpid, "Execve called"});
                     }
-                    // Other events (like PTRACE_EVENT_STOP) are just ignored (sig=0)
                 } else if (stop_sig == (SIGTRAP | 0x80)) {
-                    // Syscall stop
                     handleSyscall(wpid);
                 } else {
-                    // Regular signal
                     sig = stop_sig;
                     
-                    // Debug print
-                    // m_handler({"DEBUG", wpid, "Sig: " + std::to_string(sig) + " SIGSTOP: " + std::to_string(SIGSTOP)});
-
-                    // Suppress SIGSTOP (used for initial attach/start)
-                    // Also suppress SIGTRAP if it's not a syscall stop (though unlikely with TRACESYSGOOD)
                     if (sig == SIGSTOP || sig == SIGTRAP || sig == 19) {
                         sig = 0;
                     }
@@ -78,7 +65,6 @@ void Tracer::run() {
                     }
                 }
                 
-                // Restart the child that stopped
                 ptrace(PTRACE_SYSCALL, wpid, 0, sig);
             }
         }
@@ -89,10 +75,6 @@ void Tracer::handleSyscall(pid_t pid) {
     struct user_regs_struct regs;
     ptrace(PTRACE_GETREGS, pid, 0, &regs);
     
-    // Note: This only captures the syscall entry/exit. 
-    // To distinguish entry/exit, we'd need to track state per PID.
-    // For simplicity, we just log it.
-    
     std::string name = getSyscallName(regs.orig_rax);
     m_handler({"SYSCALL", pid, name});
 }
@@ -102,8 +84,6 @@ void Tracer::handleFork(pid_t pid) {
     ptrace(PTRACE_GETEVENTMSG, pid, 0, &new_pid);
     m_handler({"FORK", pid, "Created process " + std::to_string(new_pid)});
 }
-
-// handleSignal removed as it is inlined in run()
 
 std::string Tracer::getSyscallName(long syscall_nr) {
     static std::map<long, std::string> syscalls = {

@@ -119,5 +119,15 @@
         <log timestamp="2026-01-02T14:29:29">Tracing code snippet</log>
         <log timestamp="2026-01-02T14:29:39">Tracing code snippet</log>
         <log timestamp="2026-01-02T14:29:45">Client deconectat</log>
+        <log timestamp="2026-01-06T00:17:06">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-06T00:17:22">Tracing code snippet</log>
+        <log timestamp="2026-01-06T00:36:51">Tracing code snippet</log>
+        <log timestamp="2026-01-06T00:36:56">Client deconectat</log>
+        <log timestamp="2026-01-06T18:42:45">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-06T18:43:33">Client deconectat</log>
+        <log timestamp="2026-01-07T00:32:46">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-07T00:33:07">Tracing code snippet</log>
+        <log timestamp="2026-01-07T00:33:12">Tracing code snippet</log>
+        <log timestamp="2026-01-07T00:33:16">Client deconectat</log>
     </logs>
 </applicationData>

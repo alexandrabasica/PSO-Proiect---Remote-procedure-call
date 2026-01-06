@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/geanina-filotea/Qt/6.10.1/gcc_64/include",
+                "/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets",
+                "/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore",
+                "/home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -39,8 +39,7 @@ public:
 private:
     void setupSignalHandler();
     void ensureOpen() const;
-    void closeClientIfOpen();
-    //Database* db; 
+    void closeClientIfOpen(); 
 
 private:
     uint16_t m_port;

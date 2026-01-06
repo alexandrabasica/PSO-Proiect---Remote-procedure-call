@@ -22,19 +22,19 @@ add_executable(pso_server
 )
 
 # GUI executable
-set(OPENGL_opengl_LIBRARY /usr/lib/x86_64-linux-gnu/libGL.so.1)
-set(OPENGL_glx_LIBRARY /usr/lib/x86_64-linux-gnu/libGL.so.1)
-set(OPENGL_INCLUDE_DIR /usr/include)
-set(OpenGL_GL_PREFERENCE GLVND)
 find_package(OpenGL REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIR})
 
 if(NOT TARGET OpenGL::GL)
-    add_library(OpenGL::GL UNKNOWN IMPORTED)
-    set_target_properties(OpenGL::GL PROPERTIES
-        IMPORTED_LOCATION "${OPENGL_opengl_LIBRARY}"
-        INTERFACE_INCLUDE_DIRECTORIES "${OPENGL_INCLUDE_DIR}"
-    )
+    if(OPENGL_gl_LIBRARY)
+        add_library(OpenGL::GL UNKNOWN IMPORTED)
+        set_target_properties(OpenGL::GL PROPERTIES
+            IMPORTED_LOCATION "${OPENGL_gl_LIBRARY}"
+            INTERFACE_INCLUDE_DIRECTORIES "${OPENGL_INCLUDE_DIR}"
+        )
+    else()
+         message(WARNING "OpenGL::GL target not found and could not be created manually.")
+    endif()
 endif()
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)

@@ -12,9 +12,14 @@ int main(int argc, char* argv[]) {
     Database db("database.xml");
     Server server(port, &db);
 
-    std::cout << "Starting server on port " << port << "...\n";
-    server.open();
-    std::cout << "Server ready. Waiting for clients...\n";
+    try {
+        std::cout << "Starting server on port " << port << "...\n";
+        server.open();
+        std::cout << "Server ready. Waiting for clients...\n";
 
-    server.serveForever();
+        server.serveForever();
+    } catch (const std::exception& e) {
+        std::cerr << "Server error: " << e.what() << "\n";
+        return 1;
+    }
 }
