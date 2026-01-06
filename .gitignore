@@ -3,16 +3,21 @@
 # Directorul de build unde sunt generate executabilele și Makefile-urile
 build/
 
-# Executabilele generate (le-am văzut în structura ta)
+# Executabilele generate
 *.exe
 main.exe
 myprogram
 pso_gui
 pso_server
+test_client
 
-# Fișiere obiect generate în timpul compilării
+# Biblioteci și fișiere obiect
 *.o
 *.obj
+*.a
+*.so
+*.dll
+*.dylib
 
 # Cache-ul și fișierele temporare CMake
 CMakeCache.txt
@@ -20,6 +25,21 @@ CMakeFiles/
 Makefile
 cmake_install.cmake
 
+# Fișiere generate de Qt (pentru build-uri in-source)
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+
 # Fișiere de backup sau swap
 *~
 *.swp
+
+# IDE specific files (VS Code, Qt Creator)
+.vscode/
+*.user
+*.pro.user
+
+# Logs and runtime data
+server.log
+database.xml
