@@ -87,7 +87,6 @@ Server::Server(uint16_t port, Database* database) noexcept
                             Tracer tracer(runCmd, sendCallback);
                             tracer.run();
 
-                            // Read output
                             std::ifstream outFile(outputFile);
                             std::string outLine;
                             while (std::getline(outFile, outLine)) {

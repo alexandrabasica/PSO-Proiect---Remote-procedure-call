@@ -5,6 +5,9 @@
 #include <QPushButton>
 #include "Client.h"
 
+#include <QLabel>
+#include <QPlainTextEdit>
+
 class MainWindow : public QMainWindow {
     Q_OBJECT
 public:
@@ -13,9 +16,17 @@ public:
 
 private slots:
     void onSendClicked();
+    void onConnectClicked();
 
 private:
-    QLineEdit *inputLine;
+    // Connection UI
+    QLineEdit *hostInput;
+    QLineEdit *portInput;
+    QPushButton *connectButton;
+    QLabel *statusLabel;
+
+    // Main UI
+    QPlainTextEdit *inputEditor;
     QTextEdit *outputArea;
     QTextEdit *traceArea;
     QPushButton *sendButton;

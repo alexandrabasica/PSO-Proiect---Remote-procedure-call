@@ -21,7 +21,6 @@ add_executable(pso_server
     ${SHARED_SRC}
 )
 
-# GUI executable
 find_package(OpenGL REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIR})
 

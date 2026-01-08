@@ -1,15 +1,16 @@
 #include "Client.h"
 #include <iostream>
 
-int main() {
-    try {
+int main()
+{
+    try
+    {
         Client client("127.0.0.1", 12345);
         client.connectTo();
-        
-        auto traceHandler = [](const std::string& line) {
-            // std::cout << "TRACE: " << line << "\n"; // Suppress trace for clarity
-        };
-        auto outHandler = [](const std::string& line) {
+
+        auto traceHandler = [](const std::string &line) {};
+        auto outHandler = [](const std::string &line)
+        {
             std::cout << "OUTPUT: " << line << "\n";
         };
 
@@ -24,8 +25,9 @@ int main() {
 
         std::cout << "\n4. Verifying history is intact 'printf(a);'\n";
         client.trace("printf(\"Value of a is still: %d\\n\", a);", traceHandler, outHandler);
-        
-    } catch (const std::exception& e) {
+    }
+    catch (const std::exception &e)
+    {
         std::cerr << "Error: " << e.what() << "\n";
         return 1;
     }
