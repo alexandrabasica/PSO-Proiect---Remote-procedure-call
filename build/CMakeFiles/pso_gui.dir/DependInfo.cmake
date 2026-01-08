@@ -9,12 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "pso_gui_autogen/timestamp" "custom" "pso_gui_autogen/deps"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp" "CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o.d"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp" "CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o.d"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/mocs_compilation.cpp" "CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o.d"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp" "CMakeFiles/pso_gui.dir/shared/Client.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/Client.cpp.o.d"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp" "CMakeFiles/pso_gui.dir/shared/Database.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/Database.cpp.o.d"
-  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp" "CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp" "CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp" "CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/mocs_compilation.cpp" "CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp" "CMakeFiles/pso_gui.dir/shared/Client.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/Client.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp" "CMakeFiles/pso_gui.dir/shared/Database.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/Database.cpp.o.d"
+  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp" "CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o" "gcc" "CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

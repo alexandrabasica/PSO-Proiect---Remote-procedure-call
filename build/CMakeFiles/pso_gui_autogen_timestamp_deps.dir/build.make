@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
+CMAKE_SOURCE_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build
+CMAKE_BINARY_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build
 
 # Utility rule file for pso_gui_autogen_timestamp_deps.
 
@@ -66,9 +66,9 @@ include CMakeFiles/pso_gui_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/pso_gui_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/libQt6Widgets.so.6.10.1
-CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/moc
-CMakeFiles/pso_gui_autogen_timestamp_deps: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/uic
+CMakeFiles/pso_gui_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/pso_gui_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/pso_gui_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 pso_gui_autogen_timestamp_deps: CMakeFiles/pso_gui_autogen_timestamp_deps
 pso_gui_autogen_timestamp_deps: CMakeFiles/pso_gui_autogen_timestamp_deps.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/pso_gui_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/pso_gui_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/pso_gui_autogen_timestamp_deps.dir/depend:
-	cd /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pso_gui_autogen_timestamp_deps.dir/depend
 

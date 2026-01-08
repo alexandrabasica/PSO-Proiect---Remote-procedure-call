@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared
+CXX_INCLUDES = -I/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared
 
 CXX_FLAGS = -std=gnu++17
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
+CMAKE_SOURCE_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build
+CMAKE_BINARY_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pso_gui.dir/depend.make
@@ -69,96 +69,96 @@ include CMakeFiles/pso_gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pso_gui.dir/flags.make
 
-pso_gui_autogen/timestamp: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/moc
-pso_gui_autogen/timestamp: /home/geanina-filotea/Qt/6.10.1/gcc_64/libexec/uic
+pso_gui_autogen/timestamp: /usr/lib/qt6/libexec/moc
+pso_gui_autogen/timestamp: /usr/lib/qt6/libexec/uic
 pso_gui_autogen/timestamp: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pso_gui"
-	/usr/bin/cmake -E cmake_autogen /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pso_gui"
+	/usr/bin/cmake -E cmake_autogen /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/timestamp
 
 CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: CMakeFiles/pso_gui.dir/flags.make
 CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: pso_gui_autogen/mocs_compilation.cpp
 CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/mocs_compilation.cpp
 
 CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/mocs_compilation.cpp > CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/mocs_compilation.cpp > CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/mocs_compilation.cpp -o CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/mocs_compilation.cpp -o CMakeFiles/pso_gui.dir/pso_gui_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: CMakeFiles/pso_gui.dir/flags.make
-CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp
+CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp
 CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o -MF CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o.d -o CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o -MF CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o.d -o CMakeFiles/pso_gui.dir/gui/gui_main.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp
 
 CMakeFiles/pso_gui.dir/gui/gui_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/gui/gui_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp > CMakeFiles/pso_gui.dir/gui/gui_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp > CMakeFiles/pso_gui.dir/gui/gui_main.cpp.i
 
 CMakeFiles/pso_gui.dir/gui/gui_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/gui/gui_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp -o CMakeFiles/pso_gui.dir/gui/gui_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp -o CMakeFiles/pso_gui.dir/gui/gui_main.cpp.s
 
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: CMakeFiles/pso_gui.dir/flags.make
-CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp
+CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o -MF CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o.d -o CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o -MF CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o.d -o CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp
 
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp > CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp > CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.i
 
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp -o CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp -o CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.s
 
 CMakeFiles/pso_gui.dir/shared/Client.cpp.o: CMakeFiles/pso_gui.dir/flags.make
-CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp
+CMakeFiles/pso_gui.dir/shared/Client.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp
 CMakeFiles/pso_gui.dir/shared/Client.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pso_gui.dir/shared/Client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/Client.cpp.o -MF CMakeFiles/pso_gui.dir/shared/Client.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/Client.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pso_gui.dir/shared/Client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/Client.cpp.o -MF CMakeFiles/pso_gui.dir/shared/Client.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/Client.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp
 
 CMakeFiles/pso_gui.dir/shared/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/shared/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp > CMakeFiles/pso_gui.dir/shared/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp > CMakeFiles/pso_gui.dir/shared/Client.cpp.i
 
 CMakeFiles/pso_gui.dir/shared/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/shared/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp -o CMakeFiles/pso_gui.dir/shared/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp -o CMakeFiles/pso_gui.dir/shared/Client.cpp.s
 
 CMakeFiles/pso_gui.dir/shared/Database.cpp.o: CMakeFiles/pso_gui.dir/flags.make
-CMakeFiles/pso_gui.dir/shared/Database.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp
+CMakeFiles/pso_gui.dir/shared/Database.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp
 CMakeFiles/pso_gui.dir/shared/Database.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pso_gui.dir/shared/Database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/Database.cpp.o -MF CMakeFiles/pso_gui.dir/shared/Database.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/Database.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pso_gui.dir/shared/Database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/Database.cpp.o -MF CMakeFiles/pso_gui.dir/shared/Database.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/Database.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp
 
 CMakeFiles/pso_gui.dir/shared/Database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/shared/Database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp > CMakeFiles/pso_gui.dir/shared/Database.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp > CMakeFiles/pso_gui.dir/shared/Database.cpp.i
 
 CMakeFiles/pso_gui.dir/shared/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/shared/Database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp -o CMakeFiles/pso_gui.dir/shared/Database.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp -o CMakeFiles/pso_gui.dir/shared/Database.cpp.s
 
 CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o: CMakeFiles/pso_gui.dir/flags.make
-CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp
+CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp
 CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o: CMakeFiles/pso_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o -MF CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o -MF CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o.d -o CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp
 
 CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp > CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp > CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.i
 
 CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp -o CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp -o CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.s
 
 # Object files for target pso_gui
 pso_gui_OBJECTS = \
@@ -179,12 +179,13 @@ pso_gui: CMakeFiles/pso_gui.dir/shared/Client.cpp.o
 pso_gui: CMakeFiles/pso_gui.dir/shared/Database.cpp.o
 pso_gui: CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o
 pso_gui: CMakeFiles/pso_gui.dir/build.make
-pso_gui: /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/libQt6Widgets.so.6.10.1
-pso_gui: /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/libQt6Gui.so.6.10.1
-pso_gui: /usr/lib/x86_64-linux-gnu/libGL.so.1
-pso_gui: /home/geanina-filotea/Qt/6.10.1/gcc_64/lib/libQt6Core.so.6.10.1
+pso_gui: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+pso_gui: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+pso_gui: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+pso_gui: /usr/lib/x86_64-linux-gnu/libGLX.so
+pso_gui: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 pso_gui: CMakeFiles/pso_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pso_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pso_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pso_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +197,6 @@ CMakeFiles/pso_gui.dir/clean:
 .PHONY : CMakeFiles/pso_gui.dir/clean
 
 CMakeFiles/pso_gui.dir/depend: pso_gui_autogen/timestamp
-	cd /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pso_gui.dir/depend
 

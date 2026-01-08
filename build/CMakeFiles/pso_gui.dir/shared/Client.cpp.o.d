@@ -1,7 +1,7 @@
 CMakeFiles/pso_gui.dir/shared/Client.cpp.o: \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp \
  /usr/include/stdc-predef.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -156,7 +156,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -170,7 +170,7 @@ CMakeFiles/pso_gui.dir/shared/Client.cpp.o: \
  /usr/include/string.h /usr/include/strings.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime /usr/include/time.h \
