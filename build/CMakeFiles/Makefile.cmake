@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/CMakeLists.txt"
+  "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
@@ -158,6 +158,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pso_server.dir/DependInfo.cmake"
+  "CMakeFiles/test_client.dir/DependInfo.cmake"
   "CMakeFiles/pso_gui.dir/DependInfo.cmake"
   "CMakeFiles/pso_gui_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/pso_gui_autogen.dir/DependInfo.cmake"

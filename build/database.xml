@@ -2,42 +2,23 @@
     <settings/>
     <state/>
     <logs>
-        <log timestamp="2026-01-07T01:20:49">Server pornit pe port 12345</log>
-        <log timestamp="2026-01-07T01:21:32">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:22:34">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:25:03">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:26:36">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:26:59">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:27:06">Client deconectat</log>
-        <log timestamp="2026-01-07T01:36:46">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:38:50">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:39:45">Tracing code snippet</log>
-        <log timestamp="2026-01-07T01:41:07">Client deconectat</log>
-        <log timestamp="2026-01-08T08:09:44">Server pornit pe port 12345</log>
-        <log timestamp="2026-01-08T08:11:04">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:11:05">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:11:06">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:11:17">Client deconectat</log>
-        <log timestamp="2026-01-08T08:11:19">Client deconectat</log>
-        <log timestamp="2026-01-08T08:33:44">Server pornit pe port 12345</log>
-        <log timestamp="2026-01-08T08:34:31">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:35:53">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:36:58">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:37:08">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:37:44">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:38:06">Client deconectat</log>
-        <log timestamp="2026-01-08T08:42:01">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:43:15">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:43:26">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:43:34">Client deconectat</log>
-        <log timestamp="2026-01-08T08:46:14">Client deconectat</log>
-        <log timestamp="2026-01-08T08:46:15">Client deconectat</log>
-        <log timestamp="2026-01-08T08:54:20">Server pornit pe port 12345</log>
-        <log timestamp="2026-01-08T08:55:10">Tracing code snippet</log>
-        <log timestamp="2026-01-08T08:59:13">Client deconectat</log>
-        <log timestamp="2026-01-08T09:00:10">Server pornit pe port 12345</log>
-        <log timestamp="2026-01-08T09:00:45">Tracing code snippet</log>
-        <log timestamp="2026-01-08T09:00:54">Tracing code snippet</log>
-        <log timestamp="2026-01-08T09:01:10">Client deconectat</log>
+        <log timestamp="2026-01-08T12:17:55">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:18:30">Tracing code snippet</log>
+        <log timestamp="2026-01-08T12:18:33">Tracing code snippet</log>
+        <log timestamp="2026-01-08T12:18:33">Tracing code snippet</log>
+        <log timestamp="2026-01-08T12:18:34">Tracing code snippet</log>
+        <log timestamp="2026-01-08T12:18:35">Client deconectat</log>
+        <log timestamp="2026-01-08T12:24:38">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:25:24">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:30:08">Client deconectat</log>
+        <log timestamp="2026-01-08T12:30:21">Client deconectat</log>
+        <log timestamp="2026-01-08T12:35:05">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:35:28">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:42:32">Server pornit pe port 57920</log>
+        <log timestamp="2026-01-08T12:45:33">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:45:44">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T12:49:26">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T13:04:34">Tracing code snippet</log>
+        <log timestamp="2026-01-08T13:05:21">Client deconectat</log>
     </logs>
 </applicationData>

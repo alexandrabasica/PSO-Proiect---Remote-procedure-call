@@ -1,7 +1,7 @@
 CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -352,7 +352,7 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -370,9 +370,9 @@ CMakeFiles/pso_gui.dir/gui/mainwindow.cpp.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
  /usr/include/c++/13/climits \
- /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
+ /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \

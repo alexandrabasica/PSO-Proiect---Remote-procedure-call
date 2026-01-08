@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
+CMAKE_SOURCE_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build
+CMAKE_BINARY_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,19 @@ pso_server: cmake_check_build_system
 pso_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/build
 .PHONY : pso_server/fast
+
+#=============================================================================
+# Target rules for targets named test_client
+
+# Build rule for target.
+test_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_client
+.PHONY : test_client
+
+# fast build rule for target.
+test_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/build
+.PHONY : test_client/fast
 
 #=============================================================================
 # Target rules for targets named pso_gui
@@ -318,6 +331,7 @@ shared/Client.o: shared/Client.cpp.o
 # target to build an object file
 shared/Client.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Client.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Client.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Client.cpp.o
 .PHONY : shared/Client.cpp.o
 
@@ -327,6 +341,7 @@ shared/Client.i: shared/Client.cpp.i
 # target to preprocess a source file
 shared/Client.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Client.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Client.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Client.cpp.i
 .PHONY : shared/Client.cpp.i
 
@@ -336,6 +351,7 @@ shared/Client.s: shared/Client.cpp.s
 # target to generate assembly for a file
 shared/Client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Client.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Client.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Client.cpp.s
 .PHONY : shared/Client.cpp.s
 
@@ -345,6 +361,7 @@ shared/Database.o: shared/Database.cpp.o
 # target to build an object file
 shared/Database.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Database.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Database.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Database.cpp.o
 .PHONY : shared/Database.cpp.o
 
@@ -354,6 +371,7 @@ shared/Database.i: shared/Database.cpp.i
 # target to preprocess a source file
 shared/Database.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Database.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Database.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Database.cpp.i
 .PHONY : shared/Database.cpp.i
 
@@ -363,6 +381,7 @@ shared/Database.s: shared/Database.cpp.s
 # target to generate assembly for a file
 shared/Database.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/Database.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/Database.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/Database.cpp.s
 .PHONY : shared/Database.cpp.s
 
@@ -372,6 +391,7 @@ shared/tinyxml2.o: shared/tinyxml2.cpp.o
 # target to build an object file
 shared/tinyxml2.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/tinyxml2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.o
 .PHONY : shared/tinyxml2.cpp.o
 
@@ -381,6 +401,7 @@ shared/tinyxml2.i: shared/tinyxml2.cpp.i
 # target to preprocess a source file
 shared/tinyxml2.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/tinyxml2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.i
 .PHONY : shared/tinyxml2.cpp.i
 
@@ -390,8 +411,33 @@ shared/tinyxml2.s: shared/tinyxml2.cpp.s
 # target to generate assembly for a file
 shared/tinyxml2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_server.dir/build.make CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/shared/tinyxml2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pso_gui.dir/build.make CMakeFiles/pso_gui.dir/shared/tinyxml2.cpp.s
 .PHONY : shared/tinyxml2.cpp.s
+
+test_client.o: test_client.cpp.o
+.PHONY : test_client.o
+
+# target to build an object file
+test_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/test_client.cpp.o
+.PHONY : test_client.cpp.o
+
+test_client.i: test_client.cpp.i
+.PHONY : test_client.i
+
+# target to preprocess a source file
+test_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/test_client.cpp.i
+.PHONY : test_client.cpp.i
+
+test_client.s: test_client.cpp.s
+.PHONY : test_client.s
+
+# target to generate assembly for a file
+test_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_client.dir/build.make CMakeFiles/test_client.dir/test_client.cpp.s
+.PHONY : test_client.cpp.s
 
 # Help Target
 help:
@@ -405,6 +451,7 @@ help:
 	@echo "... pso_gui_autogen_timestamp_deps"
 	@echo "... pso_gui"
 	@echo "... pso_server"
+	@echo "... test_client"
 	@echo "... gui/gui_main.o"
 	@echo "... gui/gui_main.i"
 	@echo "... gui/gui_main.s"
@@ -432,6 +479,9 @@ help:
 	@echo "... shared/tinyxml2.o"
 	@echo "... shared/tinyxml2.i"
 	@echo "... shared/tinyxml2.s"
+	@echo "... test_client.o"
+	@echo "... test_client.i"
+	@echo "... test_client.s"
 .PHONY : help
 
 
