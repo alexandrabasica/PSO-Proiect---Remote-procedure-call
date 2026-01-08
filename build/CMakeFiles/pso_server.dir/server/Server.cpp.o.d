@@ -1,7 +1,7 @@
 CMakeFiles/pso_server.dir/server/Server.cpp.o: \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.cpp \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.cpp \
  /usr/include/stdc-predef.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -107,7 +107,7 @@ CMakeFiles/pso_server.dir/server/Server.cpp.o: \
  /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/atomic \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
  /usr/include/c++/13/cctype /usr/include/ctype.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
@@ -129,8 +129,8 @@ CMakeFiles/pso_server.dir/server/Server.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
@@ -175,7 +175,7 @@ CMakeFiles/pso_server.dir/server/Server.cpp.o: \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Tracer.h \
+ /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Tracer.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/system_error \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \

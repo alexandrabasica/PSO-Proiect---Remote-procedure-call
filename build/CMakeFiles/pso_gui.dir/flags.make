@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/include -I/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared -isystem /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtWidgets -isystem /home/geanina-filotea/Qt/6.10.1/gcc_64/include -isystem /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtCore -isystem /home/geanina-filotea/Qt/6.10.1/gcc_64/mkspecs/linux-g++ -isystem /home/geanina-filotea/Qt/6.10.1/gcc_64/include/QtGui
+CXX_INCLUDES = -I/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/include -I/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui
 
 CXX_FLAGS = -std=gnu++17 -fPIC
 

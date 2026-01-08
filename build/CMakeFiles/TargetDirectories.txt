@@ -1,6 +1,6 @@
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_server.dir
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui.dir
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/edit_cache.dir
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/rebuild_cache.dir
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen_timestamp_deps.dir
-/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_server.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/edit_cache.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/rebuild_cache.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen_timestamp_deps.dir
+/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen.dir

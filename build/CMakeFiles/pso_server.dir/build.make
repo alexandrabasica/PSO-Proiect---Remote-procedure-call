@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall
+CMAKE_SOURCE_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build
+CMAKE_BINARY_DIR = /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pso_server.dir/depend.make
@@ -70,88 +70,88 @@ include CMakeFiles/pso_server.dir/progress.make
 include CMakeFiles/pso_server.dir/flags.make
 
 CMakeFiles/pso_server.dir/server/main.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/server/main.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/main.cpp
+CMakeFiles/pso_server.dir/server/main.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/main.cpp
 CMakeFiles/pso_server.dir/server/main.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pso_server.dir/server/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/main.cpp.o -MF CMakeFiles/pso_server.dir/server/main.cpp.o.d -o CMakeFiles/pso_server.dir/server/main.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pso_server.dir/server/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/main.cpp.o -MF CMakeFiles/pso_server.dir/server/main.cpp.o.d -o CMakeFiles/pso_server.dir/server/main.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/main.cpp
 
 CMakeFiles/pso_server.dir/server/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/server/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/main.cpp > CMakeFiles/pso_server.dir/server/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/main.cpp > CMakeFiles/pso_server.dir/server/main.cpp.i
 
 CMakeFiles/pso_server.dir/server/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/server/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/main.cpp -o CMakeFiles/pso_server.dir/server/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/main.cpp -o CMakeFiles/pso_server.dir/server/main.cpp.s
 
 CMakeFiles/pso_server.dir/server/Server.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/server/Server.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.cpp
+CMakeFiles/pso_server.dir/server/Server.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.cpp
 CMakeFiles/pso_server.dir/server/Server.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pso_server.dir/server/Server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/Server.cpp.o -MF CMakeFiles/pso_server.dir/server/Server.cpp.o.d -o CMakeFiles/pso_server.dir/server/Server.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pso_server.dir/server/Server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/Server.cpp.o -MF CMakeFiles/pso_server.dir/server/Server.cpp.o.d -o CMakeFiles/pso_server.dir/server/Server.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.cpp
 
 CMakeFiles/pso_server.dir/server/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/server/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.cpp > CMakeFiles/pso_server.dir/server/Server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.cpp > CMakeFiles/pso_server.dir/server/Server.cpp.i
 
 CMakeFiles/pso_server.dir/server/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/server/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Server.cpp -o CMakeFiles/pso_server.dir/server/Server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Server.cpp -o CMakeFiles/pso_server.dir/server/Server.cpp.s
 
 CMakeFiles/pso_server.dir/server/Tracer.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/server/Tracer.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Tracer.cpp
+CMakeFiles/pso_server.dir/server/Tracer.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Tracer.cpp
 CMakeFiles/pso_server.dir/server/Tracer.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pso_server.dir/server/Tracer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/Tracer.cpp.o -MF CMakeFiles/pso_server.dir/server/Tracer.cpp.o.d -o CMakeFiles/pso_server.dir/server/Tracer.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Tracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pso_server.dir/server/Tracer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/server/Tracer.cpp.o -MF CMakeFiles/pso_server.dir/server/Tracer.cpp.o.d -o CMakeFiles/pso_server.dir/server/Tracer.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Tracer.cpp
 
 CMakeFiles/pso_server.dir/server/Tracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/server/Tracer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Tracer.cpp > CMakeFiles/pso_server.dir/server/Tracer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Tracer.cpp > CMakeFiles/pso_server.dir/server/Tracer.cpp.i
 
 CMakeFiles/pso_server.dir/server/Tracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/server/Tracer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/server/Tracer.cpp -o CMakeFiles/pso_server.dir/server/Tracer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/server/Tracer.cpp -o CMakeFiles/pso_server.dir/server/Tracer.cpp.s
 
 CMakeFiles/pso_server.dir/shared/Client.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/shared/Client.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp
+CMakeFiles/pso_server.dir/shared/Client.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp
 CMakeFiles/pso_server.dir/shared/Client.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pso_server.dir/shared/Client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/Client.cpp.o -MF CMakeFiles/pso_server.dir/shared/Client.cpp.o.d -o CMakeFiles/pso_server.dir/shared/Client.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pso_server.dir/shared/Client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/Client.cpp.o -MF CMakeFiles/pso_server.dir/shared/Client.cpp.o.d -o CMakeFiles/pso_server.dir/shared/Client.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp
 
 CMakeFiles/pso_server.dir/shared/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/shared/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp > CMakeFiles/pso_server.dir/shared/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp > CMakeFiles/pso_server.dir/shared/Client.cpp.i
 
 CMakeFiles/pso_server.dir/shared/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/shared/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp -o CMakeFiles/pso_server.dir/shared/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp -o CMakeFiles/pso_server.dir/shared/Client.cpp.s
 
 CMakeFiles/pso_server.dir/shared/Database.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/shared/Database.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp
+CMakeFiles/pso_server.dir/shared/Database.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp
 CMakeFiles/pso_server.dir/shared/Database.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pso_server.dir/shared/Database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/Database.cpp.o -MF CMakeFiles/pso_server.dir/shared/Database.cpp.o.d -o CMakeFiles/pso_server.dir/shared/Database.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pso_server.dir/shared/Database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/Database.cpp.o -MF CMakeFiles/pso_server.dir/shared/Database.cpp.o.d -o CMakeFiles/pso_server.dir/shared/Database.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp
 
 CMakeFiles/pso_server.dir/shared/Database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/shared/Database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp > CMakeFiles/pso_server.dir/shared/Database.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp > CMakeFiles/pso_server.dir/shared/Database.cpp.i
 
 CMakeFiles/pso_server.dir/shared/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/shared/Database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp -o CMakeFiles/pso_server.dir/shared/Database.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp -o CMakeFiles/pso_server.dir/shared/Database.cpp.s
 
 CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o: CMakeFiles/pso_server.dir/flags.make
-CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp
+CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp
 CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o: CMakeFiles/pso_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o -MF CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o.d -o CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o -c /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o -MF CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o.d -o CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o -c /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp
 
 CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp > CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp > CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.i
 
 CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp -o CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp -o CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.s
 
 # Object files for target pso_server
 pso_server_OBJECTS = \
@@ -173,7 +173,7 @@ pso_server: CMakeFiles/pso_server.dir/shared/Database.cpp.o
 pso_server: CMakeFiles/pso_server.dir/shared/tinyxml2.cpp.o
 pso_server: CMakeFiles/pso_server.dir/build.make
 pso_server: CMakeFiles/pso_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pso_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pso_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pso_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +185,6 @@ CMakeFiles/pso_server.dir/clean:
 .PHONY : CMakeFiles/pso_server.dir/clean
 
 CMakeFiles/pso_server.dir/depend:
-	cd /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_server.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_server.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pso_server.dir/depend
 
