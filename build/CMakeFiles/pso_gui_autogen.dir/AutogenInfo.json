@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen",
-	"CMAKE_BINARY_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call",
+	"BUILD_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/CMakeLists.txt",
-		"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
+		"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/CMakeLists.txt",
+		"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
-		"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake",
-		"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+		"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake",
+		"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
@@ -188,39 +188,39 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call",
-	"DEP_FILE" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall",
+	"DEP_FILE" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "pso_gui_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.h",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h",
 			"MU",
 			"DMHXEJ42XS/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.h",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.h",
 			"MU",
 			"MTKJWXDCAS/moc_Client.cpp",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h",
 			"MU",
 			"MTKJWXDCAS/moc_Database.cpp",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h",
 			"MU",
 			"MTKJWXDCAS/moc_tinyxml2.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -231,7 +231,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared",
+		"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared",
 		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
@@ -264,41 +264,41 @@
 		"-c",
 		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 16,
-	"PARSE_CACHE_FILE" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/CMakeFiles/pso_gui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/CMakeFiles/pso_gui_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/gui_main.cpp",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/gui_main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.cpp",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.cpp",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.cpp",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.cpp",
+			"/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.cpp",
 			"MU",
 			null
 		]

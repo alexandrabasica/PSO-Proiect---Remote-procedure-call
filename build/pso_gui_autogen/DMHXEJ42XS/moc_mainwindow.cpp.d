@@ -1,8 +1,8 @@
-/home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp: /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/gui/mainwindow.h \
-  /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/build/pso_gui_autogen/moc_predefs.h \
-  /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Client.h \
-  /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/Database.h \
-  /home/alexandra/Desktop/PSO-Proiect/PSO-Proiect---Remote-procedure-call/shared/tinyxml2.h \
+/home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp: /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/gui/mainwindow.h \
+  /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/build/pso_gui_autogen/moc_predefs.h \
+  /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Client.h \
+  /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/Database.h \
+  /home/geanina-filotea/Desktop/ANUL3/remoteProceduralCall/shared/tinyxml2.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
