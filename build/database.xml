@@ -145,5 +145,7 @@
         <log timestamp="2026-01-08T09:17:21">Client deconectat</log>
         <log timestamp="2026-01-08T09:28:59">Server pornit pe port 12345</log>
         <log timestamp="2026-01-08T09:29:07">Client deconectat</log>
+        <log timestamp="2026-01-08T09:41:21">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T09:41:31">Client deconectat</log>
     </logs>
 </applicationData>
