@@ -141,5 +141,7 @@
         <log timestamp="2026-01-07T01:32:10">Tracing code snippet</log>
         <log timestamp="2026-01-08T09:08:37">Server pornit pe port 12345</log>
         <log timestamp="2026-01-08T09:08:47">Client deconectat</log>
+        <log timestamp="2026-01-08T09:17:12">Server pornit pe port 12345</log>
+        <log timestamp="2026-01-08T09:17:21">Client deconectat</log>
     </logs>
 </applicationData>
